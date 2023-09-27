@@ -5,6 +5,6 @@ I recommend running the above using a venv environment.
 
 ### 1. Tabulate Module
 Can be installed using from pip using:
-#### pip install tabulate
+##### pip install tabulate
 
 And that's really it....enjoy the program and am open to suggestions to expand it.
