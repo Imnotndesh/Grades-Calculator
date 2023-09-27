@@ -1,5 +1,4 @@
 from tabulate import tabulate
-global cumlTotal,ovrGrades
 
 class app:
     def grade_calculation(self,catOne,CatTwo,fullExam):
@@ -46,6 +45,7 @@ class app:
                 self.ovrgrades.append("A")
         return self.cumlTotal,self.ovrgrades
 
+## Creation of data rows for table
     def gen_table(self,catOne,catTwo,fullExam):
         self.grade_calculation(catOne,catTwo,fullExam)
         table_context = [['CAT1','CAT2','FULL EXAM','TOTAL','GRADE']]
