@@ -63,3 +63,43 @@ catTwo = [8,11,6,30,7]
 fullExam = [100,7,70,70,50]
 app = app()
 app.gen_table(catOne,catTwo,fullExam)
+
+# # For manual entry:
+# print("+---------------+")
+# print("Manual Entry mode")
+# catOne = []
+# catTwo =[]
+# fullExam =[]
+
+# app=app()
+# examEntries = int(input("Enter amount of exam entries (rows)" ))
+
+# # CAT 1 entries
+# startIndexCatOne = 0
+# print('---Cat 1 entries---')
+# while startIndexCatOne < examEntries:
+#     catOneEntry = int(input(f'Entry number {startIndexCatOne}: '))
+#     catOne.append(catOneEntry)
+#     startIndexCatOne = startIndexCatOne + 1
+
+# # CAT 2 entries
+# startIndexCatTwo = 0
+# print('---Cat 2 entries---')
+# while startIndexCatTwo < examEntries:
+#     catTwoEntry = int(input(f'Entry number {startIndexCatTwo}: '))
+#     catTwo.append(catTwoEntry)
+#     startIndexCatTwo = startIndexCatTwo + 1
+
+# # Full exam entries
+# startIndexFull = 0
+# print('---Full Exam entries---')
+# while startIndexFull < examEntries:
+#     fullEntry = int(input(f'Entry number {startIndexFull}: '))
+#     fullExam.append(fullEntry)
+#     startIndexFull= startIndexFull + 1
+
+    
+# print("Entries Completed.")
+# print("Generating......")
+# print("+..................+")
+# app.gen_table(catOne,catTwo,fullExam)
